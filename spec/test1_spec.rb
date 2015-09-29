@@ -7,6 +7,6 @@ describe "Appium Test" do
     textFieldsList = @driver.find_elements(:class_name, "android.widget.EditText")
     textFieldsList[0].send_keys("Some Name")
     textFieldsList[2].send_keys("Some@example.com")
-    @driver.find_element(:name, "Save").click
+    @driver.find_element(:name, "Save").click()
   end
 end
