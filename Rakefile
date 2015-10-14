@@ -17,3 +17,4 @@ multitask :test_sauce => [
   ] do
     puts 'Running automation'
 end
+
